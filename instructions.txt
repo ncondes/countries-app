@@ -1,1 +1,31 @@
 1.) npm init -y
+
+2.) git init
+
+3.) npm i -D webpack webpack-cli webpack-dev-server
+
+4.) create folder structure
+
+5.) npm i react react-dom
+
+6.) config index.html index.js. and app.js
+
+7.) config the file webpack.config.dev.js
+
+8.) npm i -D @babel/core babel-loader
+
+9.) npm i -D html-loader html-webpack-plugin
+
+10.) npm i -D @babel/preset-env @babel/preset-react
+
+11.) config the file .babelrc
+
+12.) npm i -D style-loader css-loader mini-css-extract-plugin
+
+13.) npm i -D sass sass-loader
+
+14.) config the file webpack.config.js
+
+15.) npm i -D clean-webpack-plugin css-minimizer-webpack-plugin terser-webpack-plugin
+
+16.) create scripts in package.json
