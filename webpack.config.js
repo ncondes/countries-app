@@ -9,7 +9,8 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 module.exports = {
     entry: './src/index.js',
     output: {
-        path: path.resolve(__dirname, 'dist'), 
+        path: path.resolve(__dirname, 'dist'),
+        filename: 'bondle.js',
     },
     mode: 'production',
     resolve: {
@@ -34,9 +35,9 @@ module.exports = {
             {
                 test: /\.(css|s[ac]ss)$/,
                 use: [
-                    MiniCssExtractPlugin.loader,
                     'style-loader',
                     'css-loader',
+                    'postcss-loader',
                     'sass-loader',
                 ]
             },
@@ -48,7 +49,7 @@ module.exports = {
             filename: './index.html'
         }),
         new MiniCssExtractPlugin({
-            filename: '[name].css',
+            filename: 'styles.css',
         }),
         new CleanWebpackPlugin(),
     ],
