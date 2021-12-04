@@ -5,7 +5,16 @@ module.exports = {
   ],
   darkMode: false,
   theme: {
-    extend: {},
+    extend: {
+        colors: {
+            'Dark_Blue' : '#2b3945',
+            'Medium_Dark_Blue': '#202c37',
+            'Very_Dark_Blue': '#111517',
+            'Dark_Gray': '#858585',
+            'Very_Light_Gray': '#fafafa',
+            'White': '#ffffff',
+        }
+    },
   },
   variants: {
     extend: {},
