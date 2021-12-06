@@ -29,7 +29,7 @@ export const AppRouter = () => {
                 <Routes>
                     
                     <Route path='/' element={ <Body /> }/>
-                    <Route path='country' element={ <Country /> }/>
+                    <Route path='country/:id' element={ <Country /> }/>
                     <Route path='/*' element={ <Body /> }/>
 
                 </Routes>

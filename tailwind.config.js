@@ -13,6 +13,9 @@ module.exports = {
             'Dark_Gray': '#858585',
             'Very_Light_Gray': '#fafafa',
             'White': '#ffffff',
+        },
+        height: {
+            100: '25rem',
         }
     },
   },

@@ -12,7 +12,7 @@
 
 7.) config the file webpack.config.dev.js
 
-8.) npm i -D @babel/core @babel/cli babel-loader
+8.) npm i -D @babel/core @babel/cli babel-loader @babel/plugin-transform-runtime @babel/runtime 
 
 9.) npm i -D html-loader html-webpack-plugin
 
